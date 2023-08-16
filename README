@@ -1,0 +1,40 @@
+# LAB 1 
+
+
+## 1 : UDP based Echo Server and Client
+
+Note that the client terminates after receiving the echo message. Open two terminals and run the following commands in each terminal.
+
+Terminal 1:
+
+    $ python3 UDPechoserver.py
+
+Terminal 2:
+    
+    $ python3 UDPechoclient.py
+
+
+## 2 : UDP based Math Server and Client
+
+Note that the client won't terminate until the user enters ctrl+c. Open two terminals and run the following commands in each terminal.
+
+Terminal 1:
+
+    $ python3 UDPmathserver.py
+
+Terminal 2:
+
+    $ python3 UDPmathclient.py
+
+
+## 3 : TCP based Simple File Server and Client
+
+Open two terminals and run the following commands in each terminal.
+
+Terminal 1:
+
+    $ python3 TCPfileserver.py
+
+Terminal 2:
+
+    $ python3 TCPfileclient.py
